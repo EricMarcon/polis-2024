@@ -19,13 +19,9 @@ output:
     toc: no
     fig_caption: no
     keep_tex: no
-  bookdown::slidy_presentation2:
-    slide_level: 2
   bookdown::ioslides_presentation2:
     logo: images/logo.png
     widescreen: true
-  bookdown::powerpoint_presentation2:
-    slide_level: 2
 ---
 
 ```{r}
