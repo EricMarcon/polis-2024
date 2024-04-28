@@ -8,6 +8,9 @@ bibliography: references.bib
 biblio-style: chicago
 urlcolor: blue
 output:
+  bookdown::ioslides_presentation2:
+    logo: images/logo.png
+    widescreen: true
   bookdown::beamer_presentation2:
     latex_engine: xelatex
     includes:
@@ -19,9 +22,6 @@ output:
     toc: no
     fig_caption: no
     keep_tex: no
-  bookdown::ioslides_presentation2:
-    logo: images/logo.png
-    widescreen: true
 ---
 
 ```{r}
@@ -94,7 +94,7 @@ set.seed(973)
 
 # Packages 
 
-## entropart
+## entropart{.columns-2} 
 
 \begincols
   \begincol{.58\textwidth}
@@ -129,7 +129,7 @@ DivProfile(q.seq = seq(0, 2, 0.1), Paracou618.MC) |>
   autoplot(dp)
 ```
 
-## dbmss
+## dbmss{.columns-2} 
 
 \begincols
   \begincol{.58\textwidth}
@@ -177,7 +177,7 @@ paracou16 |>
   autoplot(main = "") + ggplot2::ylim(0, 2)
 ```
 
-## memoiR
+## memoiR{.columns-2} 
 
 \begincols
   \begincol{.58\textwidth}
